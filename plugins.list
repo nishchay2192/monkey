@@ -1,0 +1,8 @@
+	install -m 644 plugins/auth/*.so ${PLUGINDIR}/
+	install -m 644 plugins/cgi/*.so ${PLUGINDIR}/
+	install -m 644 plugins/cheetah/*.so ${PLUGINDIR}/
+	install -m 644 plugins/dirlisting/*.so ${PLUGINDIR}/
+	install -m 644 plugins/fastcgi/*.so ${PLUGINDIR}/
+	install -m 644 plugins/liana/*.so ${PLUGINDIR}/
+	install -m 644 plugins/logger/*.so ${PLUGINDIR}/
+	install -m 644 plugins/mandril/*.so ${PLUGINDIR}/
